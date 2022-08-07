@@ -9,8 +9,6 @@ for i in range(2, int(MAX ** (1 / 2)) + 1):
 primes = [i for i in range(MAX) if is_prime[i]]
 while True:
   p = int(input())
-  Average = sum(primes[:p]) / p
-  if not p:
     break
   print("Sum of first",p,"prime numbers:")
   print(sum(primes[:p]))
